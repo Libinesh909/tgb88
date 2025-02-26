@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="payment.html">Payment</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>Register for the Tournament</h1>
+    
+    <form action="https://formsubmit.co/libinesh444@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="text" name="game_id" placeholder="Enter your in-game ID" required>
+        <input type="hidden" name="_captcha" value="false">  
+        <input type="hidden" name="_next" value="thankyou.html">  
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
